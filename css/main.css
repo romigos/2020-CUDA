@@ -1,19 +1,82 @@
 body {
     font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
+    margin: 0; /* delete line around body */
+    padding: 0; /* delete line around body */
+}
+
+/* first section */
+
+.clearfix:after {
+    content: '';
+    display: table;
+    width: 100%;
+    clear: both;
+}
+
+div {
+    box-sizing: border-box;
 }
 
 header {
-    background-color: rgb(135, 80, 156);
+    background-color: rgb(135, 80, 156); /* here can be some image */
     height: 600px;
 }
 
 .container {
     width: 1035px;
+    margin: 0 auto; /*  centering container */
 }
+
+/* fist section logo and nav */
 
 .logo {
-    margin: 40px 150px;
+    margin-top: 53px;
+    float: left; /* move logo to left */
 }
 
+nav {
+    float: right; /* move nav to right */
+    margin-top: 71px;
+}
+
+.menu {
+    padding: 0;
+    margin: 0;
+    display: block;
+}
+
+.menu li {
+    float: left;
+    display: block;
+    margin-right: 71px;
+}
+
+.menu a {
+    color: #fff;
+    text-decoration: none; /* delete line under words */
+    text-transform: uppercase; /* make all simbole uppercase */
+}
+
+.titles_first {
+    color: #fff;
+    font-size: 40px;
+    text-align: center;
+    margin-top: 165px;
+}
+
+.titles_first p {
+    margin: 0;
+}
+
+.button {
+    background-color: #eb7d4b;
+    color: #fff;
+    text-align: center;
+    border-radius: 3px;
+    display: block;
+    width: 293px;
+    padding: 20px 0;
+    margin: 91px auto;
+    text-decoration: none;
+    text-transform: uppercase;
+}
