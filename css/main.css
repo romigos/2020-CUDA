@@ -23,14 +23,14 @@ header {
 }
 
 .container {
-    width: 1035px;
+    width: 1140px;
     margin: 0 auto; /*  centering container */
 }
 
 /* fist section logo and nav */
 
 .logo {
-    margin-top: 53px;
+    margin-top: 71px;
     float: left; /* move logo to left */
 }
 
@@ -48,7 +48,7 @@ nav {
 .menu li {
     float: left;
     display: block;
-    margin-right: 71px;
+    margin-right: 30px;
 }
 
 .menu a {
@@ -59,19 +59,20 @@ nav {
 
 .titles_first {
     color: #fff;
-    font-size: 40px;
+    font-size: 42px;
     text-align: center;
-    margin-top: 165px;
+    margin-top: 150px;
 }
 
 .titles_first p {
     margin: 0;
+    font-weight: bold;
 }
 
+/*
 .button {
     background-color: #eb7d4b;
     color: #fff;
-    text-align: center;
     border-radius: 3px;
     display: block;
     width: 293px;
@@ -79,4 +80,12 @@ nav {
     margin: 91px auto;
     text-decoration: none;
     text-transform: uppercase;
+    text-align: center;
+}
+ */
+.button {
+    background: url(../img/big_button.png);
+    width: 293px;
+    padding: 35px 0;
+    margin: 85px auto;
 }
