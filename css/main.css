@@ -82,9 +82,14 @@ nav {
     text-align: center;
 }
 
-. title {
-    background-color: rgb(135, 80, 156); /* here can be some image */
+.services {
+    background-color: #17c2a4;
     height: 600px;
+}
+
+.title {
+
+
 }
 
 .title h2 {
@@ -93,7 +98,7 @@ nav {
     text-align: center;
     text-decoration: none;
     text-transform: uppercase;
-    margin: 0;
+    margin: 0px;
 }
 
 .title p {
@@ -103,7 +108,6 @@ nav {
 }
 
 .services {
-    margin-top: 121px;
 
 }
 
@@ -120,4 +124,16 @@ nav {
 
 .services_item p {
     font-size: 16px;
+}
+
+.services_item:last-child {
+    float: right;
+}
+
+.services_item:nth-child(2) {
+    margin-left: 100px;
+}
+
+.services_item:nth-child(3) {
+    margin-left: 100px;
 }
