@@ -104,7 +104,7 @@ nav {
 }
 
 .title_hr {
-    border-top: 4px solid gainsboro;
+    border-top: 4px solid #13a78d;
     margin-top: 25px;
     border-radius: 5px;
     width: 86px;
@@ -116,10 +116,6 @@ nav {
     font-size: 18px;
     margin-top: 5px;
     padding: 50px 200px 30px 200px;
-}
-
-.services {
-
 }
 
 .services_item {
@@ -149,4 +145,39 @@ nav {
 
 .services_item:nth-child(3) {
     margin-left: 100px;
+}
+
+#our_team {
+    background-color: #e7f1f8;
+    color: #3c4761;
+}
+
+.title_black {
+    padding-top: 115px;
+
+}
+
+.title_black h2 {
+    color: black;
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    margin: 0px;
+}
+
+.title_hr {
+    border-top: 4px solid gainsboro;
+    margin-top: 25px;
+    border-radius: 5px;
+    width: 86px;
+}
+
+.title_black p {
+    color: black;
+    text-align: center;
+    font-size: 18px;
+    margin-top: 5px;
+    padding: 50px 200px 30px 200px;
 }
