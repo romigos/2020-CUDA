@@ -59,7 +59,7 @@ nav {
 
 .titles_first {
     color: #fff;
-    font-size: 42px;
+    font-size: 40px;
     text-align: center;
     margin-top: 150px;
 }
@@ -67,6 +67,7 @@ nav {
 .titles_first p {
     margin: 0;
     font-weight: bold;
+    padding: 0 20px 0 20px;
 }
 
 .button {
@@ -76,23 +77,24 @@ nav {
     display: block;
     width: 293px;
     padding: 20px 0;
-    margin: 91px auto;
+    margin: 50px auto 144px auto;
     text-decoration: none;
     text-transform: uppercase;
     text-align: center;
 }
 
-.services {
+#services {
     background-color: #17c2a4;
-    height: 600px;
+    height: 747px;
 }
 
-.title {
-
+.title_white {
+    padding-top: 115px;
 
 }
 
-.title h2 {
+.title_white h2 {
+    color: white;
     font-size: 40px;
     font-weight: bold;
     text-align: center;
@@ -101,10 +103,19 @@ nav {
     margin: 0px;
 }
 
-.title p {
+.title_hr {
+    border-top: 4px solid gainsboro;
+    margin-top: 25px;
+    border-radius: 5px;
+    width: 86px;
+}
+
+.title_white p {
+    color: white;
     text-align: center;
     font-size: 18px;
     margin-top: 5px;
+    padding: 50px 200px 30px 200px;
 }
 
 .services {
@@ -118,11 +129,13 @@ nav {
 }
 
 .services_item h3 {
+    color: white;
     font-size: 24px;
     font-weight: bold;
 }
 
 .services_item p {
+    color: white;
     font-size: 16px;
 }
 
