@@ -62,12 +62,13 @@ nav {
     font-size: 40px;
     text-align: center;
     margin-top: 150px;
+    font-family: "Titillium Web", sans-serif;
 }
 
 .titles_first p {
     margin: 0;
     font-weight: bold;
-    padding: 0 20px 0 20px;
+    padding: 0 15%;
 }
 
 .button {
@@ -84,18 +85,14 @@ nav {
     box-shadow: 0 -3px inset #c86a40;
 }
 
-.section_1 {
+.services {
     background-color: #17c2a4;
     height: 747px;
+    font-family: "Titillium Web", sans-serif;
 }
 
-.title_white {
-    padding-top: 115px;
-
-}
-
-.title_white h2 {
-    color: white;
+.main_section_title h2 {
+    padding-top: 110px;
     font-size: 40px;
     font-weight: bold;
     text-align: center;
@@ -104,86 +101,59 @@ nav {
     margin: 0;
 }
 
-.title_hr {
-    border-top: 4px solid #13a78d;
-    width: 10%;
-    margin: 30px auto;
-}
-
-.title_white p {
+.white {
     color: white;
-    text-align: center;
-    font-size: 18px;
-    margin-top: 5px;
-    padding: 50px 200px 30px 200px;
-}
-
-.services_item {
-    width: 193px;
-    float: left;
-    text-align: center;
-}
-
-.services_item h3 {
-    color: white;
-    font-size: 24px;
-    font-weight: bold;
-}
-
-.services_item p {
-    color: white;
-    font-size: 16px;
-}
-
-.services_item:last-child {
-    float: right;
-}
-
-.services_item:nth-child(2) {
-    margin-left: 100px;
-}
-
-.services_item:nth-child(3) {
-    margin-left: 100px;
-}
-
-.section_2 {
-    background-color: #e7f1f8;
-    color: #3c4761;
 }
 
 .black {
-    font-family: Arial, Helvetica, sans-serif;
-    color: #3c4761;
-    font-weight: 100;
-}
-
-.title_black {
-    padding-top: 115px;
-
-}
-
-.title_black h2 {
     color: black;
-    font-size: 40px;
-    font-weight: bold;
-    text-align: center;
-    text-decoration: none;
-    text-transform: uppercase;
-    margin: 0;
 }
 
 .title_hr {
-    border-top: 4px solid gainsboro;
-    margin-top: 25px;
+    border: 2px solid #c8d9e5;
     border-radius: 5px;
-    width: 86px;
+    width: 8%;
+    margin: 22px auto;
 }
 
-.title_black p {
-    color: black;
+.main_section_title p {
     text-align: center;
     font-size: 18px;
-    margin-top: 5px;
-    padding: 50px 200px 30px 200px;
+    margin-bottom: 40px;
+    padding: 0 25%;
 }
+
+.flex_box_section {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.section_item {
+    text-align: center;
+    margin: 30px;
+}
+
+.icon {
+    margin-bottom: 25px;
+}
+
+.section_item h3 {
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.section_item p {
+    color: white;
+    font-size: 18px;
+}
+
+.our_team {
+    background-color: #e7f1f8;
+    color: #3c4761;
+    height: 655px;
+    font-family: "Titillium Web", sans-serif;
+}
+
