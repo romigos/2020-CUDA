@@ -1,68 +1,69 @@
 body {
-    font-family: Helvetica, sans-serif;
-    margin: 0; /* delete line around body */
-    padding: 0; /* delete line around body */
+    font-family: 'Titillium Web', sans-serif;
+    margin: 0;
+    padding: 0;
+    font-size: 14px;
+    color: #333;
+    line-height: 1.6;
 }
 
-/* first section */
-
-.clearfix:after {
-    content: '';
-    display: table;
-    width: 100%;
-    clear: both;
-}
-
-div {
+*,
+*:before,
+*:after {
     box-sizing: border-box;
 }
 
-header {
-    background-color: #87509c; /* here can be some image */
-    height: 595px;
-}
-
-.container {
-    width: 1140px;
-    margin: 0 auto; /*  centering container */
-}
-
-/* fist section logo and nav */
-
-.logo {
-    margin-top: 71px;
-    float: left; /* move logo to left */
-}
-
-nav {
-    float: right; /* move nav to right */
-    margin-top: 71px;
-}
-
-.menu {
-    padding: 0;
+h1, h2, h3, h4, h5, h6 {
     margin: 0;
-    display: block;
 }
 
-.menu li {
-    float: left;
-    display: block;
-    margin-right: 30px;
+/* Container */
+.container {
+    width: 100%;
+    max-width: 1140px;
+    margin: 0 auto;
 }
 
-.menu a {
-    color: white;
-    text-decoration: none; /* delete line under words */
-    text-transform: uppercase; /* make all simbole uppercase */
+/* Header */
+.header {
+    background-color: #87509c;
+    height: 595px;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
 }
+
+.header_inner {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header_logo {
+    margin-top: 71px;
+}
+
+.nav {
+    font-size: 18px;
+    text-transform: uppercase;
+}
+
+.nav_link {
+    color: #fff;
+    text-decoration: none;
+    display: inline-block;
+    vertical-align: top;
+    margin: 0 15px;
+}
+
 
 .titles_first {
     color: #fff;
     font-size: 40px;
     text-align: center;
     margin-top: 150px;
-    font-family: "Titillium Web", sans-serif;
 }
 
 .titles_first p {
@@ -88,7 +89,6 @@ nav {
 .services {
     background-color: #17c2a4;
     height: 747px;
-    font-family: "Titillium Web", sans-serif;
 }
 
 .main_section_title h2 {
@@ -150,10 +150,13 @@ nav {
     font-size: 18px;
 }
 
+.section_item span {
+    color: #30bae7;
+}
+
 .our_team {
     background-color: #e7f1f8;
     color: #3c4761;
-    height: 655px;
-    font-family: "Titillium Web", sans-serif;
+    height: 914px;
 }
 
