@@ -101,7 +101,7 @@ h1, h2, h3, h4, h5, h6, p {
     text-decoration: none;
     text-transform: uppercase;
     text-align: center;
-    box-shadow: 0 -3px inset #c86a40;
+    box-shadow: 0 -4px inset #c86a40;
 }
 
 /* Services */
@@ -136,7 +136,6 @@ h1, h2, h3, h4, h5, h6, p {
 .main_section_title p {
     text-align: center;
     font-size: 18px;
-    margin-bottom: 40px;
     padding: 0 25%;
 }
 
@@ -148,7 +147,7 @@ h1, h2, h3, h4, h5, h6, p {
 
 .section_item {
     text-align: center;
-    margin: 45px;
+    margin: 10px;
 }
 
 .icon {
@@ -164,7 +163,8 @@ h1, h2, h3, h4, h5, h6, p {
 
 .section_item p {
     font-size: 16px;
-    padding-top: 10px;
+    padding: 15px 20px;
+    height: 158px;
 }
 
 /* Our team */
@@ -180,4 +180,29 @@ h1, h2, h3, h4, h5, h6, p {
     text-transform: uppercase;
     color: #30bae7;
     text-align: center;
+}
+
+/* Our team */
+
+.skulls {
+    background-color: #ffffff;
+    height: 655px;
+}
+
+/* OUR PORTFOLIO */
+
+.our_portfolio {
+    background-color: #ffdd99;
+    height: 1423px;
+}
+
+.green {
+    background-color: #17c2a4;
+    box-shadow: 0 -4px inset #c86a40;
+}
+
+.flex_box_section1 {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
 }
