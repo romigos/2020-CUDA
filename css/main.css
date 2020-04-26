@@ -91,7 +91,6 @@ h1, h2, h3, h4, h5, h6, p {
 
 .btn {
     font-weight: bold;
-    background-color: #eb7d4b;
     color: white;
     border-radius: 3px;
     display: block;
@@ -101,8 +100,18 @@ h1, h2, h3, h4, h5, h6, p {
     text-decoration: none;
     text-transform: uppercase;
     text-align: center;
+}
+
+.btn-color-red {
+    background-color: #eb7d4b;
     box-shadow: 0 -4px inset #c86a40;
 }
+
+.btn-color-green {
+    background-color: #17c2a4;
+    box-shadow: 0 -4px inset lightgray;
+}
+
 
 /* Services */
 
@@ -147,12 +156,12 @@ h1, h2, h3, h4, h5, h6, p {
 
 .section_item {
     text-align: center;
-    margin: 10px;
+    margin: 0 30px;
 }
 
-.icon {
+.icon_service {
     margin-bottom: 25px;
-
+    height: 124px;
 }
 
 .section_item h3 {
@@ -169,6 +178,11 @@ h1, h2, h3, h4, h5, h6, p {
 
 /* Our team */
 
+
+.icon_team {
+    width: 200px;
+}
+
 .our_team {
     background-color: #e7f1f8;
     color: #3c4761;
@@ -182,26 +196,64 @@ h1, h2, h3, h4, h5, h6, p {
     text-align: center;
 }
 
-/* Our team */
+/* Our skulls */
 
 .skulls {
     background-color: #ffffff;
     height: 655px;
 }
 
-/* OUR PORTFOLIO */
+.circular-chart {
+    display: block;
+    margin: 10px auto;
+    width: 160px;
+    max-height: 250px;
+}
+
+.circle-bg {
+    fill: none;
+    stroke: #eee;
+    stroke-width: 3.8;
+}
+
+.circle {
+    fill: none;
+    stroke-width: 2.8;
+    stroke-linecap: round;
+    animation: progress 1s ease-out forwards;
+}
+
+.circular-chart.bluesky .circle {
+    stroke: #30bae7;
+}
+
+.circular-chart.red .circle {
+    stroke: #d74680;
+}
+
+.circular-chart.yellow .circle {
+    stroke: #15c7a8;
+}
+
+.circular-chart.orange .circle {
+    stroke: #eb7d4b;
+}
+
+.percentage {
+    fill: #666;
+    font-family: sans-serif;
+    font-size: 0.5em;
+    text-anchor: middle;
+}
+
+/* OUR portfolio */
 
 .our_portfolio {
     background-color: #ffdd99;
     height: 1423px;
 }
 
-.green {
-    background-color: #17c2a4;
-    box-shadow: 0 -4px inset #c86a40;
-}
-
-.flex_box_section1 {
+.flex_box_section {
     display: flex;
     justify-content: space-between;
     margin-top: 50px;
