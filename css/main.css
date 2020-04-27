@@ -9,7 +9,7 @@ body {
     box-sizing: border-box;
 }
 
-h1, h2, h3, h4, h5, h6, p {
+* {
     margin: 0;
     padding: 0;
 }
@@ -50,13 +50,13 @@ h1, h2, h3, h4, h5, h6, p {
     text-decoration: none;
     display: inline-block;
     vertical-align: top;
-    margin: 0 20px;
+    margin: 0 10px;
+    padding: 5px 15px;
 }
 
 .nav-link:hover {
-    border-radius: 9px;
+    border-radius: 5px;
     background-color: #633a79;
-    padding: 5px;
 }
 
 
@@ -142,7 +142,7 @@ h1, h2, h3, h4, h5, h6, p {
     height: 4px;
     opacity: 0.15;
     background-color: #000000;
-    margin: 21px auto;
+    margin: 16px auto;
 }
 
 .main-section-title p {
@@ -261,6 +261,17 @@ h1, h2, h3, h4, h5, h6, p {
     height: 1423px;
 }
 
+.btn-group button {
+    background-color: #4CAF50; /* Green background */
+    border: 1px solid green; /* Green border */
+    color: white; /* White text */
+    padding: 10px 24px; /* Some padding */
+    cursor: pointer; /* Pointer/hand icon */
+    position: center;
+
+}
+
+
 .flex-box-section-portfolio {
     display: flex;
     justify-content: space-between;
@@ -343,4 +354,22 @@ h1, h2, h3, h4, h5, h6, p {
     letter-spacing: 0.48px;
 }
 
-.
+.footer-nav:after {
+    color: red;
+}
+
+.footer-nav {
+    font-size: 24px;
+}
+
+.footer-nav-link {
+    color: #fff;
+    text-decoration: none;
+    display: inline-block;
+    vertical-align: top;
+    margin: 0 25px;
+}
+
+.footer-nav-link:hover {
+    color: #30bae7;
+}
